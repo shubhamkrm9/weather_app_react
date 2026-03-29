@@ -1,0 +1,14 @@
+.infoBox{
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;   /* ADD THIS */
+    align-items: center;      /* centers horizontally */
+    width: 100%;
+    max-width: 700px;         /* reduce from 1000 */
+    margin: 20px auto;
+}
+.card > * {
+    width: 100%;
+}

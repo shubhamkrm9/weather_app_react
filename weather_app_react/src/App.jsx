@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
+import Search from './Search'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>Know Weather of any city !</div>
+      <h1>Search Weather of any City!</h1>
+      <Search/>
     </>
   )
 }
